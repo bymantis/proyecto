@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesion</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <!-- Form para ingresar a la pagina -->
+    <div id="form">
+         <form action="validar.php" method="post">
+        <label>Usuario</label><br>
+        <!-- En este input guarda el usuario de la persona -->
+        <input type="text" name="usuario" required><br><br>
+        <label>Contraseña</label><br>
+        <!-- Aqui se guarda la contraseña que se coloca -->
+        <input type="password" name="contrasena"required>
+        <br>
+        <!-- El boton que activa todo asies -->
+        <input type="submit" value="Iniciar Sesion">
+    </form>
+    </div>
+   
+    
+</body>
+</html>
